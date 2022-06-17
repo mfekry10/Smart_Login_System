@@ -1,0 +1,29 @@
+/*=============================*/
+/* Style of Login Form
+/*=============================*/
+body{
+    background-color: #24353f;
+}
+.login_form{
+    width: 60%;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.login_form h1 , .login_form button{
+    color: #17a2b8;
+}
+.login_form input , .login_form .form-control:focus{
+    background-color: transparent;
+    color: #fff;
+}
+.login_form .form-control:focus{
+    box-shadow: none;
+}
+.login_form button{
+    border-color: #17a2b8;
+}
+.login_form button:hover{
+    background-color: #17a2b8;
+}
+.login_form p a:hover{
+    text-decoration: underline !important;
+}
